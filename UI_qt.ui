@@ -32,6 +32,31 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
+    <widget class="QLabel" name="title">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>10</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#646464;&quot;&gt;Automata&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#636363;&quot;&gt;Automata&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(98, 98, 98);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(74, 74, 74);
+font: 700 16pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Automata</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="frame_show_automata">
     <property name="geometry">
